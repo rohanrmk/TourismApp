@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class infoPage extends StatefulWidget {
   Map data;
   infoPage({required this.data,Key? key}) : super(key: key);
-
   @override
   State<infoPage> createState() => _infoPageState();
 }
